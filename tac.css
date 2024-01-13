@@ -1,0 +1,15 @@
+.btn
+{
+    width:128px;
+    height:128px;   
+}
+.main_container
+{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+h1
+{
+    font-family:'Courier New', Courier, monospace;
+}
