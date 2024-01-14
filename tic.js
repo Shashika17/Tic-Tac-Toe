@@ -2,7 +2,7 @@
 function changeimageX(bid)
 {
     var myImage = document.getElementById(bid);
-    var currentPointerEvents = myImage.style.pointerEvents;
+  //  var currentPointerEvents = myImage.style.pointerEvents;
     myImage.style.pointerEvents ='none';
     document.getElementById(bid).src = "cross.png"
 
@@ -10,7 +10,7 @@ function changeimageX(bid)
 function changeimageO(bid)
 {
     var myImage = document.getElementById(bid);
-    var currentPointerEvents = myImage.style.pointerEvents;
+   // var currentPointerEvents = myImage.style.pointerEvents;
     myImage.style.pointerEvents ='none';
     document.getElementById(bid).src = "circle.png";
 }
